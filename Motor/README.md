@@ -107,3 +107,13 @@ A servo motor is generally made of four main parts:
 *(Add your image link here)*
 
 ---
+
+# ⚙️ Stepper Motors
+
+- A stepper motor is a type of motor that moves in small steps instead of continuous rotation.  
+- It is similar to a servo motor, but it works in a different way. Servo motors use a DC motor with a control circuit, while stepper motors use multiple electromagnets arranged around a central gear to control position.  
+- Stepper motors are used where precise position control is needed, such as hard disk drives, robotics, antennas, telescopes, and some toys.  
+- Stepper motors cannot run at very high speeds, but they have high holding torque (they can hold position strongly).  
+- A stepper motor is operated by a DC voltage through a driver circuit.  
+
+---
