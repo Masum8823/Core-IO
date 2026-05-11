@@ -80,3 +80,14 @@ A servo motor is generally made of four main parts:
 - Moving robot legs within a fixed range  
 
 ---
+
+# ⚙️ Servo Motor Working Principle
+
+- The DC motor runs using battery power.  
+- It rotates at high speed but gives low torque.  
+- Gear and shaft assembly reduce the speed and increase the torque.  
+- A position sensor detects the shaft position and sends information to the control circuit.  
+- The control circuit compares the actual position with the desired position and controls the motor direction accordingly.  
+- Servo motors usually need a DC supply of 4.8V to 6V.
+
+---
