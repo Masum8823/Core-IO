@@ -91,3 +91,19 @@ A servo motor is generally made of four main parts:
 - Servo motors usually need a DC supply of 4.8V to 6V.
 
 ---
+
+# 🎛️ Controlling a Servo Motor
+
+- Servo motor control signal uses PWM (Pulse Width Modulation).  
+- Unlike DC motors, here the length of the positive pulse decides the position of the motor shaft.  
+- A neutral pulse (around 1.5 ms) keeps the servo in the middle position.  
+- A longer pulse moves the servo clockwise.  
+- A shorter pulse moves it anticlockwise.  
+- The control signal is repeated every 20 milliseconds, even if the position stays the same.  
+
+---
+
+## 🖼️ Image Link:
+*(Add your image link here)*
+
+---
