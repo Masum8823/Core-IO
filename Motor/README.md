@@ -117,3 +117,27 @@ A servo motor is generally made of four main parts:
 - A stepper motor is operated by a DC voltage through a driver circuit.  
 
 ---
+
+# ⚙️ Working of Stepper Motor
+
+- The Stepper motor uses an external controller (like Arduino or Raspberry Pi).  
+- This controller turns ON and OFF each electromagnet one by one to rotate the motor shaft.  
+- When electromagnet A is ON, it pulls the gear little toward it.  
+- Then A is OFF and B is ON, so the gear moves a little toward B.  
+- In this way, all electromagnets work one after another to create rotation.  
+- Each small movement is called a step.  
+- So the motor rotates step by step in a fixed angle and completes 360° rotation.  
+
+---
+
+## 📌 Example
+- Step size = 30°  
+
+---
+
+## 📉 For smaller step size like 15°
+- One way is to increase teeth (but it becomes complex and costly).  
+- Another easy way is to turn ON four stator teeth at the same time.  
+- This is called Half Stepping.  
+
+---
