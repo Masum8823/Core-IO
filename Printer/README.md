@@ -102,3 +102,41 @@ An Ink-Jet Printer is a non-impact printer that prints text and images by sprayi
 - Slower than laser printer for large printing tasks  
 
 ---
+
+# 🖨️ Laser-Jet Printer
+
+## 📌 Definition
+A Laser-Jet Printer is a non-impact printer that uses a laser beam and toner powder to print high-quality text and images on paper.
+
+---
+
+## 🔧 Main Parts
+- **Laser Beam** → Creates image on drum  
+- **Photosensitive Drum** → Holds electrostatic image  
+- **Toner Cartridge** → Contains toner powder  
+- **Hot Rollers (Fuser Unit)** → Melt toner onto paper  
+- **Paper Feed System** → Moves paper  
+- **Electronic Control Unit** → Controls printing process  
+
+---
+
+ 
+
+---
+
+## ✅ Advantages
+- Very high print quality  
+- Fast printing speed  
+- Quiet operation  
+- Prints large volumes efficiently  
+- Print does not smudge easily  
+
+---
+
+## ❌ Disadvantages
+- Expensive printer  
+- Toner replacement cost is high  
+- Larger in size  
+- Higher power consumption compared to ink-jet printers  
+
+---
