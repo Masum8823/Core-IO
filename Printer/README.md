@@ -120,7 +120,25 @@ A Laser-Jet Printer is a non-impact printer that uses a laser beam and toner pow
 
 ---
 
- 
+ ## ⚙️ Working Principle
+- A laser printer works similarly to a photocopier machine.  
+- The computer sends text or image data to the printer.  
+- A laser beam creates an electrostatic image on the photosensitive drum.  
+- The drum rotates through toner powder.  
+- Toner particles stick to the charged image on the drum.  
+- The drum presses the toner image onto paper.  
+- The paper passes through hot rollers.  
+- Heat and pressure permanently fuse the toner onto the paper.  
+- Finally, the printed paper comes out.  
+
+---
+
+## ⭐ Important Points
+- Uses laser technology instead of ink  
+- Uses toner powder, not liquid ink  
+- Drum size matches paper size  
+- Print quality is less affected by paper quality  
+- Common resolution: 600 dpi 
 
 ---
 
