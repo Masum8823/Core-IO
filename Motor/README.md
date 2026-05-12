@@ -141,3 +141,18 @@ A servo motor is generally made of four main parts:
 - This is called Half Stepping.  
 
 ---
+
+# ⚖️ Stepper vs Servo Motor
+
+| Feature | Servo Motor | Stepper Motor |
+|--------|-------------|---------------|
+| Speed | Fast | Slow |
+| Torque | High torque | Lower torque |
+| Accuracy | Very accurate | (step-by-step) |
+| Rotation | Limited angle rotation | Can rotate step by step (full 360° control) |
+| Control | More complex | Easy to control |
+| Feedback System | Required | Not required |
+| Example | Robotic arms, legs, rudder control | 3D printers, position-based machines |
+| Main Advantage | High performance and strong movement | Simple and good positional control |
+
+---
