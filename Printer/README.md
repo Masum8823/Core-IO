@@ -53,3 +53,42 @@ A Dot Matrix Printer is an impact printer that prints characters using small dot
 - Lower quality compared to laser or inkjet printers  
 
 ---
+
+# 🖨️ Ink-Jet Printer
+
+## 📌 Definition
+An Ink-Jet Printer is a non-impact printer that prints text and images by spraying tiny droplets of ink onto paper through small nozzles.
+
+---
+
+## 🔧 Main Parts
+- **Print Head** → Contains many tiny nozzles  
+- **Nozzles** → Spray ink droplets onto paper  
+- **Ink Cartridge** → Stores ink  
+- **Motor & Belt** → Move the print head  
+- **Rail/Carriage** → Path for print head movement  
+- **Driver Circuit** → Controls ink spraying  
+- **Flexible Cable** → Connects print head with control unit  
+
+---
+
+
+---
+
+## ✅ Advantages
+- High print quality  
+- Can print color images  
+- Quiet operation  
+- Faster than dot-matrix printer  
+- Compact and lightweight  
+
+---
+
+## ❌ Disadvantages
+- Ink is expensive  
+- Ink can dry out if unused  
+- Printing cost is higher  
+- Paper quality affects print quality  
+- Slower than laser printer for large printing tasks  
+
+---
