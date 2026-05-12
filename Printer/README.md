@@ -12,6 +12,21 @@ A Dot Matrix Printer is an impact printer that prints characters using small dot
 - **Motor & Belt** → Move the print head left and right  
 
 ---
+## ⚙️ How It Works
+- Computer sends characters to the printer.  
+- Printer converts characters into dot patterns.  
+- Pins hit the ink ribbon.  
+- Ribbon presses ink onto paper.  
+- Dots combine to form letters and symbols.  
+
+---
+
+## ⭐ Important Points
+- Pins are arranged in a vertical column.  
+- Only one column of dots is printed at a time.  
+- The print head moves back and forth along a rail.  
+- A motor drives the belt to move the print head.  
+- More pins = Better print quality.  
 
 
 ---
