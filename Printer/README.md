@@ -72,6 +72,16 @@ An Ink-Jet Printer is a non-impact printer that prints text and images by sprayi
 
 ---
 
+## ⚙️ Working Principle
+- The computer sends characters or images to the printer.  
+- The printer converts them into dot patterns.  
+- Signals are sent to the nozzle driver circuits.  
+- The driver circuit creates high-energy pulses.  
+- Heat creates a tiny bubble inside the nozzle.  
+- The bubble bursts and sprays a small droplet of ink onto the paper.  
+- Thousands of tiny droplets combine to form text and images.  
+- The print head moves back and forth using a motor and belt.  
+- The nozzle cools quickly and becomes ready for the next pulse.  
 
 ---
 
