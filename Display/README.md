@@ -204,3 +204,56 @@ Raster display consists of:
 | More expensive | Less expensive |
 
 ---
+
+# 🎨 Color CRT Monitors
+
+## 📌 Definition
+Color CRT monitors display color images using different phosphors.  
+Different phosphors produce different colored lights.
+
+---
+
+## 🔄 Two Methods of Color CRT
+- Beam Penetration Method  
+- Shadow Mask Method  
+
+---
+
+# 🔴 Beam Penetration Method
+
+## 📌 Usage
+Mainly used in random scan (vector) monitors.
+
+---
+
+## 🧱 Screen Structure
+The screen has two phosphor layers:
+- Red layer  
+- Green layer  
+
+---
+
+## ⚙️ Working Principle
+Color depends on how deeply the electron beam enters the phosphor layers.  
+Beam speed is controlled by acceleration voltage.
+
+---
+
+## 🌈 Color Production
+- Slow electrons → Red color  
+- Fast electrons → Green color  
+- Medium speed electrons → Yellow and Orange colors  
+
+---
+
+## 👍 Advantages
+- Low cost  
+- Simple technology  
+
+---
+
+## 👎 Disadvantages
+- Poor picture quality  
+- Can display only four colors  
+
+---
