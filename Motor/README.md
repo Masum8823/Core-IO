@@ -1,16 +1,12 @@
-# ⚙️ Motor
+# Motor
 
-## 📌 Definition
+### Definition
 An electric motor is an electrical machine that converts **electrical energy into mechanical energy**.
 
----
-
-## 🖼️ Image of Motor:
+### Image of Motor:
 *(image)*
 
----
-
-## 🔄 Types of Motor
+### Types of Motor
 
 - ✔ AC Motors  
 - ✔ DC Motors  
@@ -23,40 +19,30 @@ An electric motor is an electrical machine that converts **electrical energy int
 
 ---
 
-# 🔌 DC Motors
+# DC Motors
 
-## 📌 Definition
+### Definition
 DC motors are simple motors with **2 wires (power and ground)** and they rotate continuously.
 
----
-
-## ⚙️ Working Principle
+## Working Principle
 - When we give power, the motor starts spinning.
 - It keeps running until we turn off the power.
 
----
-
-## 🚀 Characteristics
+### Characteristics
 - Most DC motors spin very fast  
 - High RPM (Rotations Per Minute = high speed)
 
----
-
-## 📌 Examples
+### Examples
 - Computer fan  
 - RC car wheels  
 
----
+# Servo Motor 
 
-# ⚙️ Servo Motor 
-
-## 📌 Definition
+### Definition
 A servo motor is a type of motor that rotates with high precision (very accurate position control).  
 Servo uses an error-sensing feedback control system, which helps to check the output position and correct it if there is any error in the system performance.
 
----
-
-## 🔧 Main Parts of Servo Motor
+### Main Parts of Servo Motor
 A servo motor is generally made of four main parts:
 
 - DC motor  
@@ -64,24 +50,18 @@ A servo motor is generally made of four main parts:
 - Control circuit  
 - Position sensor (usually a potentiometer)  
 
----
-
-## ⭐ Key Features
+### Key Features
 - The position of a servo motor can be controlled more accurately than a standard DC motor  
 - Usually, servo motors have three wires: power, ground, and control  
 - Power is continuously supplied, but the control circuit manages how much power is used  
 - Servo motors do not rotate freely like normal DC motors  
 
----
-
-## 📌 Example Uses
+### Example Uses
 - Controlling the rudder of a boat  
 - Moving a robotic arm  
 - Moving robot legs within a fixed range  
 
----
-
-# ⚙️ Servo Motor Working Principle
+## Servo Motor Working Principle
 
 - The DC motor runs using battery power.  
 - It rotates at high speed but gives low torque.  
@@ -90,25 +70,21 @@ A servo motor is generally made of four main parts:
 - The control circuit compares the actual position with the desired position and controls the motor direction accordingly.  
 - Servo motors usually need a DC supply of 4.8V to 6V.
 
----
-
-# 🎛️ Controlling a Servo Motor
+## Controlling a Servo Motor
 
 - Servo motor control signal uses PWM (Pulse Width Modulation).  
 - Unlike DC motors, here the length of the positive pulse decides the position of the motor shaft.  
 - A neutral pulse (around 1.5 ms) keeps the servo in the middle position.  
 - A longer pulse moves the servo clockwise.  
 - A shorter pulse moves it anticlockwise.  
-- The control signal is repeated every 20 milliseconds, even if the position stays the same.  
+- The control signal is repeated every 20 milliseconds, even if the position stays the same.  3
 
----
-
-## 🖼️ Image Link:
+### Image Link:
 *(Add your image link here)*
 
 ---
 
-# ⚙️ Stepper Motors
+# Stepper Motors
 
 - A stepper motor is a type of motor that moves in small steps instead of continuous rotation.  
 - It is similar to a servo motor, but it works in a different way. Servo motors use a DC motor with a control circuit, while stepper motors use multiple electromagnets arranged around a central gear to control position.  
@@ -116,9 +92,7 @@ A servo motor is generally made of four main parts:
 - Stepper motors cannot run at very high speeds, but they have high holding torque (they can hold position strongly).  
 - A stepper motor is operated by a DC voltage through a driver circuit.  
 
----
-
-# ⚙️ Working of Stepper Motor
+## Working of Stepper Motor
 
 - The Stepper motor uses an external controller (like Arduino or Raspberry Pi).  
 - This controller turns ON and OFF each electromagnet one by one to rotate the motor shaft.  
@@ -128,21 +102,17 @@ A servo motor is generally made of four main parts:
 - Each small movement is called a step.  
 - So the motor rotates step by step in a fixed angle and completes 360° rotation.  
 
----
-
-## 📌 Example
+### Example
 - Step size = 30°  
 
----
-
-## 📉 For smaller step size like 15°
+### For smaller step size like 15°
 - One way is to increase teeth (but it becomes complex and costly).  
 - Another easy way is to turn ON four stator teeth at the same time.  
 - This is called Half Stepping.  
 
 ---
 
-# ⚖️ Stepper vs Servo Motor
+#  Stepper vs Servo Motor
 
 | Feature | Servo Motor | Stepper Motor |
 |--------|-------------|---------------|
@@ -154,5 +124,3 @@ A servo motor is generally made of four main parts:
 | Feedback System | Required | Not required |
 | Example | Robotic arms, legs, rudder control | 3D printers, position-based machines |
 | Main Advantage | High performance and strong movement | Simple and good positional control |
-
----
