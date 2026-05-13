@@ -57,3 +57,25 @@ In color CRTs, three phosphors are used:
 - So, the screen must refresh continuously to keep the image visible.  
 
 ---
+
+## Phosphor Terms
+
+### Fluorescence
+Light produced while the phosphor is being hit by the electron beam.
+
+### Phosphorescence
+Light produced after the electron beam is removed.
+
+### Persistence
+The time taken for phosphorescence to decrease to 10% of its original brightness after excitation stops.
+
+### High Persistence Phosphor
+- Keeps glowing for a longer time.  
+- Needs lower refresh rate.  
+- Helps reduce screen flicker.  
+
+### Low Persistence Phosphor
+- Glow fades quickly.  
+- Needs higher refresh rate.  
+- Prevents flickering by refreshing the screen faster.  
+
