@@ -187,3 +187,20 @@ Raster display consists of:
 - Every pixel has its own row and column position.  
 
 ---
+
+# ⚖️ Vector Display vs Raster Display
+
+| Vector Display | Raster Display |
+|----------------|----------------|
+| Draws images using lines and points | Draws images using pixels |
+| Beam moves directly between points | Beam scans line by line |
+| Also called Random Scan Display | Also called Raster Scan Display |
+| Produces smooth lines | Lines may look jagged |
+| Requires less memory | Requires more memory |
+| Best for line drawings | Best for realistic images and graphics |
+| Uses display list | Uses frame/refresh buffer |
+| Less suitable for filled images | Suitable for filled images and color graphics |
+| Refreshes only drawn parts | Refreshes the whole screen |
+| More expensive | Less expensive |
+
+---
