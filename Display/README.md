@@ -25,3 +25,35 @@ CRT is one of the most common display devices.
 - Vertical and horizontal plates control the electron beam direction.  
 - The electron beam hits the phosphor coating on the screen to produce light/images.  
 
+# 🖥️ How CRT Works
+
+- CRT converts electrical signals into visual signals.  
+- Inside the electron gun, a heated filament releases electrons.  
+- Electrons are focused into a sharp beam using an electromagnet.  
+- The beam moves to specific points on the screen.  
+- The screen is coated with phosphor dots.  
+- When the electron beam hits the phosphor, it glows.  
+- Brightness depends on the beam strength and hit time.  
+
+---
+
+## 📌 More About CRT
+- The focusing system works like a camera lens to focus the beam on the screen.  
+- Horizontal and vertical deflectors control beam movement.  
+- The screen uses a special material called phosphor.  
+
+In color CRTs, three phosphors are used:
+- Red  
+- Green  
+- Blue  
+
+---
+
+## 💡 Light Production in CRT
+- Electrons excite phosphor molecules on the screen.  
+- The phosphor quickly emits light, called fluorescence.  
+- Another slower light emission is called phosphorescence.  
+- The glow fades within about 15–20 milliseconds.  
+- So, the screen must refresh continuously to keep the image visible.  
+
+---
