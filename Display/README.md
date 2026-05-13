@@ -257,3 +257,38 @@ Beam speed is controlled by acceleration voltage.
 - Can display only four colors  
 
 ---
+
+# 🎨 Shadow Mask Method (Color CRT)
+
+## 📌 Components
+Color CRT uses:
+- 3 electron guns (Red, Green, Blue)  
+- A metal shadow mask  
+
+---
+
+## ⚙️ Working Principle
+It uses Red, Green, and Blue colors in different amounts to produce all colors.  
+
+The 3 electron guns are placed in a triangular (delta) shape.  
+
+Each pixel is made of 3 phosphor dots:
+- Red phosphor  
+- Green phosphor  
+- Blue phosphor  
+
+---
+
+## 🧱 Shadow Mask
+A metal sheet called “shadow mask” is placed in front of the phosphor screen.  
+It has small holes aligned with phosphor dot patterns.  
+It helps control and separate the 3 electron beams.  
+
+---
+
+## 🌈 How it Produces Color
+- The 3 beams pass through a hole in the shadow mask.  
+- They hit the correct RGB phosphor dots.  
+- These dots glow together and form a single color pixel on the screen.  
+
+---
