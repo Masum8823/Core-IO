@@ -104,3 +104,32 @@ Use gold-plated contacts.
 - Less expensive compared to other switch types.  
 
 ---
+
+# 🔘 Membrane Switch
+
+## 📌 Definition
+A membrane switch is a special type of mechanical switch.
+
+It uses two plastic or rubber sheets:
+- Row sheet  
+- Column sheet  
+
+Another sheet with holes is placed between them at key positions.
+
+---
+
+## 🧱 Structure
+- The top layer is the row layer.  
+  It has conductive lines under each row of keys.  
+
+- The bottom layer is the column layer.  
+  It has conductive lines under each column of keys.  
+
+---
+
+## ⚙️ Working Principle
+- When a key is pressed, the row line touches the column line through the hole.  
+- This contact is detected by interfacing circuits.  
+- Then the key signal is sent to the computer system.  
+
+---
