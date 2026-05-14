@@ -169,3 +169,48 @@ Finding the row and column of a pressed key is called keyboard scanning.
 For 16 keys (0 to F), a 4×4 matrix is used.
 
 ---
+
+# ⌨️ Keyboard Scanning Process
+
+---
+
+## 🔍 Step 1: Check if Any Key is Pressed
+First, 0000 is written to the output port.  
+Then the input port is read.
+
+### 📌 Result
+- If all keys are open → input port reads 1111  
+- If a key is pressed → one bit becomes 0  
+
+This helps find the column number of the pressed key.
+
+---
+
+## ⏳ Step 2: Debouncing
+A delay of about 20 ms is given.  
+The input port is read again to confirm the key press.
+
+---
+
+## 📍 Step 3: Find the Row Number
+The output port bits are changed one by one.
+
+### 📌 Example
+- First output = 1110  
+  Input port is read:  
+  - If all bits are 1, the key is not in that row.  
+
+- Next output = 1101  
+  Input is read again.  
+
+This process continues until one input bit becomes 0.
+
+---
+
+## 🎯 Final Result
+- The output port value gives the row number.  
+- The input port value gives the column number.  
+
+Using row and column values, the system identifies the pressed key.
+
+---
