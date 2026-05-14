@@ -31,3 +31,13 @@ A microcontroller on the motherboard called the keyboard controller receives key
 It decodes the data and sends it to the system for further processing.
 
 ---
+## 🔘 Keyboard Switches
+When a key is pressed, a switch becomes active and generates signals for communication with the computer.
+
+---
+
+## 📌 Types of Keyboard Switches
+- Capacitive Switch  
+- Mechanical Switch  
+- Membrane Switch  
+- Hall Effect Switch  
