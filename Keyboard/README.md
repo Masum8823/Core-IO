@@ -69,3 +69,38 @@ It requires special circuits such as:
 These circuits convert switch actions into logic signals.
 
 ---
+
+# 🔘 Mechanical Switch
+
+## 📌 Definition
+A mechanical switch uses metal contacts.  
+When a key is pressed, the contact closes.  
+When the key is released, the contact opens again.  
+Springs help return the key to its original position.
+
+---
+
+## ⚠️ Problems and Solutions
+
+### Problem 1: Key Bouncing
+Small unwanted repeated signals may occur for about 5 ms or less.
+
+**Solution**
+Use a key debouncing technique.
+
+---
+
+### Problem 2: Oxidation
+Metal contacts may become oxidized over time.
+
+**Solution**
+Use gold-plated contacts.
+
+---
+
+## ⭐ Additional Features
+- Can last for about 10 million key presses.  
+- If contacts become dirty, bouncing time may increase (called chattering).  
+- Less expensive compared to other switch types.  
+
+---
