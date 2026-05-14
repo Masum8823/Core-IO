@@ -41,3 +41,31 @@ When a key is pressed, a switch becomes active and generates signals for communi
 - Mechanical Switch  
 - Membrane Switch  
 - Hall Effect Switch  
+
+---
+
+# 🔘 Capacitive Switch
+
+## 📌 Definition
+A capacitive switch has two small metal plates.  
+When a key is pressed, the plates come closer.  
+This changes the capacitance between the plates.  
+The change in capacitance is detected and converted into logic signals to identify the key action.
+
+---
+
+## 👍 Advantage
+It has no metal contacts.  
+So, it does not get oxidized easily.
+
+---
+
+## ⚙️ Special Circuit Used
+It requires special circuits such as:
+- Oscillator  
+- PLL (Phase Locked Loop)  
+- Comparator  
+
+These circuits convert switch actions into logic signals.
+
+---
