@@ -133,3 +133,39 @@ Another sheet with holes is placed between them at key positions.
 - Then the key signal is sent to the computer system.  
 
 ---
+
+# ⌨️ Keyboard Encoders
+
+## 📌 Working of Keyboard Encoder
+When a key is pressed, the hardware:
+- Detects the key press  
+- Removes key bouncing  
+- Finds the row and column number of the key  
+- Converts the information into a standard code  
+- Sends the information to the computer system  
+
+An 8048 microcontroller-based keyboard encoder performs these tasks.
+
+---
+
+## 🧠 Keyboard Debouncing
+Key bouncing should not be treated as multiple key presses and releases.  
+Different hardware and software debouncing methods are used.
+
+### Simple Debouncing Method
+A software delay of about 20 ms is added whenever a key is pressed or released.
+
+---
+
+## 🔍 Keyboard Scanning
+Keyboard switches are arranged in rows and columns.  
+Every key has a unique row and column number.
+
+Finding the row and column of a pressed key is called keyboard scanning.
+
+---
+
+## 📌 Example
+For 16 keys (0 to F), a 4×4 matrix is used.
+
+---
