@@ -46,3 +46,16 @@ Mouse events include:
 The mouse driver sends mouse event information to the computer system.
 
 ---
+
+# 🖱️ Working of Mouse
+
+- A mouse uses two rollers:  
+  - One for X-axis movement  
+  - One for Y-axis movement  
+
+- The rollers control the movement direction.  
+- Light beams pass from a source to a sensor.  
+- Movement generates pulse signals.  
+- These signals are converted into X and Y movements.  
+
+---
