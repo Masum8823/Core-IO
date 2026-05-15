@@ -21,6 +21,12 @@ It also manages:
 - Cursor shape  
 - Button status  
 
+## 🧠 Mouse Driver Details
+- The driver receives the data packet.  
+- It decodes the information.  
+- Then it informs the application software to perform necessary actions.  
+
+
 ---
 
 ## 🔘 Mouse Buttons
@@ -59,3 +65,21 @@ The mouse driver sends mouse event information to the computer system.
 - These signals are converted into X and Y movements.  
 
 ---
+
+## 📦 Mouse Encoder
+The mouse encoder reads:
+- Cursor position  
+- Button status  
+
+It sends this information as a data packet to the computer interface controller.
+
+---
+
+
+
+## 🔌 Mouse Interfaces
+Different interfaces are used to connect a mouse to the computer:
+
+- Serial Interface  
+- PS/2 Port (Motherboard Mouse Port)  
+- USB Interface (Most modern systems)  
