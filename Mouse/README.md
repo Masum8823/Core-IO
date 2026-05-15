@@ -12,3 +12,23 @@ A mouse system consists of:
 - Software program (Mouse Driver)  
 
 ---
+## ⚙️ Mouse Driver
+The driver helps move the cursor on the screen.  
+It controls cursor movement and mouse operations.
+
+It also manages:
+- Cursor position  
+- Cursor shape  
+- Button status  
+
+---
+
+## 🔘 Mouse Buttons
+A mouse may have:
+- One button  
+- Two buttons  
+- Three buttons  
+
+Two-button mouse is most common.
+
+---
