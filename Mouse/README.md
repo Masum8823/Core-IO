@@ -152,3 +152,13 @@ If a button is pressed, its bit becomes 1.
 - This helps identify the first byte of the packet  
 
 ---
+
+# 🖱️ Serial Mouse – 3 Byte Data Packet (Bit Definition)
+
+| Byte   | D6 | D5 | D4 | D3 | D2 | D1 | D0 |
+|--------|----|----|----|----|----|----|----|
+| Byte-1 | 1  | LB | RB | Y7 | Y6 | X7 | X6 |
+| Byte-2 | 0  | X5 | X4 | X3 | X2 | X1 | X0 |
+| Byte-3 | 0  | Y5 | Y4 | Y3 | Y2 | Y1 | Y0 |
+
+---
