@@ -83,3 +83,72 @@ Different interfaces are used to connect a mouse to the computer:
 - Serial Interface  
 - PS/2 Port (Motherboard Mouse Port)  
 - USB Interface (Most modern systems)  
+
+---
+
+# 🖱️ Serial Mouse
+
+## 📌 Introduction
+Previously, serial interface was widely used to connect a mouse to a computer.  
+A serial mouse connects through:
+- COM1 port  
+- COM2 port  
+
+These ports are RS-232C compatible.  
+COM means Communication Port.
+
+---
+
+## ⭐ Features of Serial Mouse
+- Usually uses a 9-pin connector  
+- Requires a small amount of power from the serial port  
+- Communication is one-way (unidirectional)  
+- Mouse sends data to the computer through the RxD line  
+
+---
+
+## 📡 Communication Format
+Uses:
+- 1 Start bit  
+- 7 Data bits  
+- No parity  
+- 1 Stop bit  
+
+Data transfer speed is 1200 baud rate.
+
+---
+
+## 📦 Data Packets
+- Mouse sends movement and button information as data packets  
+- Usually sends 40 packets per second  
+- A packet normally contains 3 bytes  
+- Each byte is 7 bits wide  
+
+---
+
+## 📍 Movement Information
+- X7–X0 → Movement in X direction  
+  - Positive (+) → Right  
+  - Negative (−) → Left  
+
+- Y7–Y0 → Movement in Y direction  
+  - Positive (+) → Up  
+  - Negative (−) → Down  
+
+---
+
+## 🔘 Button Status
+- LB → Left button status  
+- RB → Right button status  
+
+If a button is pressed, its bit becomes 1.
+
+---
+
+## ⚠️ Important Point
+- If mouse position or button state changes, the mouse sends a 3-byte data packet to the system  
+- The MSB of the first byte is set to 1  
+- The MSB of the second and third bytes are set to 0  
+- This helps identify the first byte of the packet  
+
+---
