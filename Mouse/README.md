@@ -32,3 +32,17 @@ A mouse may have:
 Two-button mouse is most common.
 
 ---
+
+## 🖱️ Mouse Events
+Mouse events include:
+- Moving the mouse  
+- Left or right button click  
+- Double-clicking the left button  
+- Dragging (holding left button and moving the mouse)  
+
+---
+
+## 📡 Communication
+The mouse driver sends mouse event information to the computer system.
+
+---
