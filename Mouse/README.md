@@ -162,3 +162,50 @@ If a button is pressed, its bit becomes 1.
 | Byte-3 | 0  | Y5 | Y4 | Y3 | Y2 | Y1 | Y0 |
 
 ---
+# 🖱️ PS/2 Mouse
+
+## 📌 Introduction
+A PS/2 mouse uses a dedicated mouse port built into the motherboard.  
+The connector is the same mini-DIN type used for the PS/2 keyboard.  
+But the data format (packets) of keyboard and mouse are not compatible.
+
+---
+
+## 📦 PS/2 Mouse Data Packet
+It sends input information like:
+- X movement  
+- Y movement  
+- Left, middle, right button status  
+
+It uses:
+- Counters for X and Y movement tracking  
+- Flags for button status and system information  
+
+The mouse updates counters and flags at regular intervals.
+
+---
+
+## 🧩 First Byte Structure
+- D0 → Left button status  
+- D1 → Right button status  
+- D2 → Middle button status  
+- D3 → Always 1  
+- D4 → X sign (positive/negative movement)  
+- D5 → Y sign (positive/negative movement)  
+- D6 → X overflow  
+- D7 → Y overflow  
+
+---
+
+## 📦 Second and Third Bytes
+- Carry X and Y movement values  
+- These values represent how much movement occurred  
+
+---
+
+## ⭐ Key Points
+- Movement range: -255 to +255  
+- If movement exceeds range, overflow bits are set  
+- After sending the packet, counters are reset  
+
+---
