@@ -1,18 +1,18 @@
- 🖱️ What is a Mouse?
+ # 🖱️ What is a Mouse?
 
-## 📌 Definition
+####  Definition
 A mouse is an input device of a computer system.  
 It is used as an X-Y position indicator on the screen.
 
----
 
-## 🧱 Mouse System
+
+### Mouse System
 A mouse system consists of:
 - Hardware device (Mouse)  
 - Software program (Mouse Driver)  
 
 ---
-## ⚙️ Mouse Driver
+##  Mouse Driver
 The driver helps move the cursor on the screen.  
 It controls cursor movement and mouse operations.
 
@@ -21,7 +21,7 @@ It also manages:
 - Cursor shape  
 - Button status  
 
-## 🧠 Mouse Driver Details
+####  Mouse Driver Details
 - The driver receives the data packet.  
 - It decodes the information.  
 - Then it informs the application software to perform necessary actions.  
@@ -29,7 +29,7 @@ It also manages:
 
 ---
 
-## 🔘 Mouse Buttons
+###  Mouse Buttons
 A mouse may have:
 - One button  
 - Two buttons  
@@ -37,23 +37,21 @@ A mouse may have:
 
 Two-button mouse is most common.
 
----
 
-## 🖱️ Mouse Events
+
+###  Mouse Events
 Mouse events include:
 - Moving the mouse  
 - Left or right button click  
 - Double-clicking the left button  
 - Dragging (holding left button and moving the mouse)  
 
----
 
-## 📡 Communication
+####  Communication
 The mouse driver sends mouse event information to the computer system.
 
----
 
-# 🖱️ Working of Mouse
+##  Working of Mouse
 
 - A mouse uses two rollers:  
   - One for X-axis movement  
@@ -64,20 +62,20 @@ The mouse driver sends mouse event information to the computer system.
 - Movement generates pulse signals.  
 - These signals are converted into X and Y movements.  
 
----
 
-## 📦 Mouse Encoder
+
+###  Mouse Encoder
 The mouse encoder reads:
 - Cursor position  
 - Button status  
 
 It sends this information as a data packet to the computer interface controller.
 
----
 
 
 
-## 🔌 Mouse Interfaces
+
+###  Mouse Interfaces
 Different interfaces are used to connect a mouse to the computer:
 
 - Serial Interface  
@@ -86,9 +84,9 @@ Different interfaces are used to connect a mouse to the computer:
 
 ---
 
-# 🖱️ Serial Mouse
+#  Serial Mouse
 
-## 📌 Introduction
+####  Introduction
 Previously, serial interface was widely used to connect a mouse to a computer.  
 A serial mouse connects through:
 - COM1 port  
@@ -97,17 +95,17 @@ A serial mouse connects through:
 These ports are RS-232C compatible.  
 COM means Communication Port.
 
----
 
-## ⭐ Features of Serial Mouse
+
+####  Features of Serial Mouse
 - Usually uses a 9-pin connector  
 - Requires a small amount of power from the serial port  
 - Communication is one-way (unidirectional)  
 - Mouse sends data to the computer through the RxD line  
 
----
 
-## 📡 Communication Format
+
+####  Communication Format
 Uses:
 - 1 Start bit  
 - 7 Data bits  
@@ -116,17 +114,16 @@ Uses:
 
 Data transfer speed is 1200 baud rate.
 
----
 
-## 📦 Data Packets
+
+####  Data Packets
 - Mouse sends movement and button information as data packets  
 - Usually sends 40 packets per second  
 - A packet normally contains 3 bytes  
 - Each byte is 7 bits wide  
 
----
 
-## 📍 Movement Information
+#### Movement Information
 - X7–X0 → Movement in X direction  
   - Positive (+) → Right  
   - Negative (−) → Left  
@@ -135,25 +132,25 @@ Data transfer speed is 1200 baud rate.
   - Positive (+) → Up  
   - Negative (−) → Down  
 
----
 
-## 🔘 Button Status
+
+####  Button Status
 - LB → Left button status  
 - RB → Right button status  
 
 If a button is pressed, its bit becomes 1.
 
----
 
-## ⚠️ Important Point
+
+####  Important Point
 - If mouse position or button state changes, the mouse sends a 3-byte data packet to the system  
 - The MSB of the first byte is set to 1  
 - The MSB of the second and third bytes are set to 0  
 - This helps identify the first byte of the packet  
 
----
 
-# 🖱️ Serial Mouse – 3 Byte Data Packet (Bit Definition)
+
+##  Serial Mouse – 3 Byte Data Packet (Bit Definition)
 
 | Byte   | D6 | D5 | D4 | D3 | D2 | D1 | D0 |
 |--------|----|----|----|----|----|----|----|
@@ -162,16 +159,15 @@ If a button is pressed, its bit becomes 1.
 | Byte-3 | 0  | Y5 | Y4 | Y3 | Y2 | Y1 | Y0 |
 
 ---
-# 🖱️ PS/2 Mouse
+#  PS/2 Mouse
 
-## 📌 Introduction
+#### Introduction
 A PS/2 mouse uses a dedicated mouse port built into the motherboard.  
 The connector is the same mini-DIN type used for the PS/2 keyboard.  
 But the data format (packets) of keyboard and mouse are not compatible.
 
----
 
-## 📦 PS/2 Mouse Data Packet
+####  PS/2 Mouse Data Packet
 It sends input information like:
 - X movement  
 - Y movement  
@@ -183,9 +179,8 @@ It uses:
 
 The mouse updates counters and flags at regular intervals.
 
----
 
-## 🧩 First Byte Structure
+####  First Byte Structure
 - D0 → Left button status  
 - D1 → Right button status  
 - D2 → Middle button status  
@@ -195,15 +190,15 @@ The mouse updates counters and flags at regular intervals.
 - D6 → X overflow  
 - D7 → Y overflow  
 
----
 
-## 📦 Second and Third Bytes
+
+####  Second and Third Bytes
 - Carry X and Y movement values  
 - These values represent how much movement occurred  
 
----
 
-## ⭐ Key Points
+
+####  Key Points
 - Movement range: -255 to +255  
 - If movement exceeds range, overflow bits are set  
 - After sending the packet, counters are reset  
