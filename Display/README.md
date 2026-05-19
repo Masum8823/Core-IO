@@ -16,7 +16,7 @@ Computer Graphics uses different output/display devices, such as:
 
 CRT is one of the most common display devices.
 
-
+![display-diagram](crt.png)
 ### Main Features of CRT
 - It has a vacuum glass tube.  
 - It uses very high voltage.  
@@ -105,6 +105,7 @@ The display list contains:
 - Line drawing commands  
 - Character drawing commands  
 
+![display-diagram](vector.png)
 ## Working of Vector Display
 - The display controller reads the commands and sends coordinates to the vector generator.  
 - The vector generator converts digital coordinates into analog voltages.  
@@ -140,6 +141,7 @@ Raster display consists of:
 - Keyboard  
 - Mouse  
 - CRT  
+![display-diagram](raster.png)
 
 ### Image Storage
 - The image is stored in the refresh buffer as 1’s and 0’s.  
@@ -153,6 +155,7 @@ Raster display consists of:
 - When the beam returns from right to left, it is OFF.  
 - This return process is called Horizontal Retrace.  
 
+![display-diagram](retrace.png)
 ### Vertical Retrace
 - After reaching the bottom of the screen, the beam turns OFF.  
 - It quickly returns to the top-left corner.  
@@ -197,7 +200,7 @@ Different phosphors produce different colored lights.
 
 ---
 
-# 🔴 Beam Penetration Method
+# Beam Penetration Method
 
 ### Usage
 Mainly used in random scan (vector) monitors.
@@ -210,6 +213,8 @@ The screen has two phosphor layers:
 ## Working Principle
 Color depends on how deeply the electron beam enters the phosphor layers.  
 Beam speed is controlled by acceleration voltage.
+
+![display-diagram](beam-pen.png)
 
 ### Color Production
 - Slow electrons → Red color  
@@ -232,6 +237,7 @@ Beam speed is controlled by acceleration voltage.
 Color CRT uses:
 - 3 electron guns (Red, Green, Blue)  
 - A metal shadow mask  
+![display-diagram](shadow-mask.png)
 
 ### Working Principle
 It uses Red, Green, and Blue colors in different amounts to produce all colors.  
