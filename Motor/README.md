@@ -4,8 +4,7 @@
 An electric motor is an electrical machine that converts **electrical energy into mechanical energy**.
 
 ### Image of Motor:
-*(image)*
-
+![motor-diagram](motor.png)
 ### Types of Motor
 
 - ✔ AC Motors  
@@ -23,7 +22,7 @@ An electric motor is an electrical machine that converts **electrical energy int
 
 ### Definition
 DC motors are simple motors with **2 wires (power and ground)** and they rotate continuously.
-
+![motor-diagram](dc.png)
 ## Working Principle
 - When we give power, the motor starts spinning.
 - It keeps running until we turn off the power.
@@ -41,7 +40,7 @@ DC motors are simple motors with **2 wires (power and ground)** and they rotate 
 ### Definition
 A servo motor is a type of motor that rotates with high precision (very accurate position control).  
 Servo uses an error-sensing feedback control system, which helps to check the output position and correct it if there is any error in the system performance.
-
+![motor-diagram](servo.png)
 ### Main Parts of Servo Motor
 A servo motor is generally made of four main parts:
 
@@ -69,7 +68,7 @@ A servo motor is generally made of four main parts:
 - A position sensor detects the shaft position and sends information to the control circuit.  
 - The control circuit compares the actual position with the desired position and controls the motor direction accordingly.  
 - Servo motors usually need a DC supply of 4.8V to 6V.
-
+![motor-diagram](servo-working.png)
 ## Controlling a Servo Motor
 
 - Servo motor control signal uses PWM (Pulse Width Modulation).  
@@ -78,9 +77,8 @@ A servo motor is generally made of four main parts:
 - A longer pulse moves the servo clockwise.  
 - A shorter pulse moves it anticlockwise.  
 - The control signal is repeated every 20 milliseconds, even if the position stays the same.  3
-
-### Image Link:
-*(Add your image link here)*
+![motor-diagram](servo-control-1.png)
+![motor-diagram](servo-control-2.png)
 
 ---
 
@@ -91,7 +89,7 @@ A servo motor is generally made of four main parts:
 - Stepper motors are used where precise position control is needed, such as hard disk drives, robotics, antennas, telescopes, and some toys.  
 - Stepper motors cannot run at very high speeds, but they have high holding torque (they can hold position strongly).  
 - A stepper motor is operated by a DC voltage through a driver circuit.  
-
+![motor-diagram](stepper.png)
 ## Working of Stepper Motor
 
 - The Stepper motor uses an external controller (like Arduino or Raspberry Pi).  
@@ -109,7 +107,8 @@ A servo motor is generally made of four main parts:
 - One way is to increase teeth (but it becomes complex and costly).  
 - Another easy way is to turn ON four stator teeth at the same time.  
 - This is called Half Stepping.  
-
+![motor-diagram](stepper-working.png)
+![motor-diagram](stepper-working-2.png)
 ---
 
 #  Stepper vs Servo Motor
