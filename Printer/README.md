@@ -8,7 +8,7 @@ A Dot Matrix Printer is an impact printer that prints characters using small dot
 - **Pins** → Usually 7, 9, 14, 18, or 24 pins  
 - **Ribbon** → Inked ribbon used for printing  
 - **Motor & Belt** → Move the print head left and right  
-
+![printer-diagram](dot-mat.png)
 ### How It Works
 - Computer sends characters to the printer.  
 - Printer converts characters into dot patterns.  
@@ -56,6 +56,7 @@ An Ink-Jet Printer is a non-impact printer that prints text and images by sprayi
 - **Driver Circuit** → Controls ink spraying  
 - **Flexible Cable** → Connects print head with control unit  
 
+![printer-diagram](ink-jet.png)
 
 ### Working Principle
 - The computer sends characters or images to the printer.  
@@ -96,6 +97,8 @@ A Laser-Jet Printer is a non-impact printer that uses a laser beam and toner pow
 - **Hot Rollers (Fuser Unit)** → Melt toner onto paper  
 - **Paper Feed System** → Moves paper  
 - **Electronic Control Unit** → Controls printing process  
+
+![printer-diagram](laser-jet.png)
 
  ### Working Principle
 - A laser printer works similarly to a photocopier machine.  
