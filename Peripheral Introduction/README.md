@@ -102,3 +102,31 @@ Peripherals are very different from the CPU:
 Using standards makes devices compatible with each other.
 
 ---
+
+# 🔌 Hardware Interface Types
+
+## Parallel Interface
+- Multiple lines, sends several bits at the same time  
+- Example: printer connected via parallel port  
+
+## Serial Interface
+- Sends data as a series of voltage pulses on a single wire  
+- Logic 1 = high voltage, Logic 0 = low voltage  
+
+---
+
+# 🧵 Bus
+
+A bus is a communication system that transfers data between components inside a computer or between computers. Includes hardware (wires) and software (protocols).
+
+## Types:
+
+### Internal Bus
+- Connects internal parts like CPU and memory to the motherboard  
+- Also called: memory bus, system bus, Front-Side Bus, or local bus  
+
+### External Bus
+- Connects external devices (like a printer) to the computer  
+- Also called: expansion bus  
+
+---
