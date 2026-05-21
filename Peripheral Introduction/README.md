@@ -57,3 +57,30 @@ The technique of adding extra devices to the main processor.
 - Software Interface  
 
 ---
+
+# ❓ Why Interfacing is Needed?
+
+Peripherals are very different from the CPU:
+
+- Different data transfer rates  
+- Use different codes and control signals  
+- Data can be serial or parallel  
+- May work at higher voltages than the CPU  
+- All work much slower than the CPU  
+
+---
+
+# 🔧 Functions of an Interface (BHCVC)
+
+- Buffering — temporarily holds data during transfer  
+
+## Handling status signals:
+- Off-line → not ready to receive data  
+- Busy → buffer full, cannot receive data  
+- Ready → online and ready  
+
+- Converting serial ↔ parallel data  
+- Voltage conversion — adjusts voltage levels  
+- Converting analogue ↔ digital data  
+
+---
