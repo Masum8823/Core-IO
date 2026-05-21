@@ -36,3 +36,24 @@ Two parts of a computer system:
 - Input — sends data to the computer (keyboard, mouse)  
 - Output — gives results to the user (monitor, speaker)  
 - Storage — stores processed data (hard disk, USB)  
+
+---
+
+# 🔗 What is an Interface?
+
+- A point where two systems meet and interact  
+- A shared boundary where components exchange information  
+- Can be between software, hardware, peripherals, or humans  
+- Examples: User Interface (UI), Command Line Interface (CLI)  
+
+---
+
+# ⚙️ What is Interfacing?
+
+The technique of adding extra devices to the main processor.
+
+## Types:
+- Hardware Interface  
+- Software Interface  
+
+---
