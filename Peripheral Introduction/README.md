@@ -130,3 +130,29 @@ A bus is a communication system that transfers data between components inside a 
 - Also called: expansion bus  
 
 ---
+
+# Microprocessor (μP)
+
+- Introduced in 1971, grew incredibly fast  
+- Four generations so far  
+- Devices per chip increased 2000x, clock speed increased 1000x  
+- Overall performance increased by hundreds of times  
+
+---
+
+# Definitions
+
+## Microprocessor
+Central unit of a microcomputer. Does arithmetic and logical operations. One chip can have RAM, ROM, PROM, clock, and I/O interfaces.
+
+---
+
+## Microprogramming
+A way to control the CPU where each instruction runs a series of smaller instructions called microinstructions.
+
+---
+
+## Multiprocessor
+A system with two or more processing units, shared memory, and shared I/O.
+
+---
