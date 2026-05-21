@@ -192,3 +192,109 @@ A way to control the CPU where each instruction runs a series of smaller instruc
 A system with two or more processing units, shared memory, and shared I/O.
 
 ---
+
+# Memory Interface
+
+Memory is made of semiconductor material and stores programs and data.
+
+Two types:
+- Primary Memory (Main Memory)  
+- Secondary Memory  
+
+---
+
+# Primary Memory
+
+Examples: RAM, ROM  
+
+- Used by the microprocessor to load and execute programs  
+- Must be fast  
+
+---
+
+# Secondary Memory
+
+Used for bulk storage of data.
+
+Examples:
+- Floppy  
+- Hard Disk  
+- CD-ROM  
+- Magnetic Tape  
+
+Features:
+- Slower, sequential access  
+- Non-volatile (data stays even without power)  
+
+---
+
+# Memory Chip
+
+A memory chip has:
+- n address lines → can store 2ⁿ words  
+- k data input lines  
+- k data output lines  
+- Read / Write control lines  
+- Chip Select (CS) — activates the chip  
+
+---
+
+# Address Space
+
+- Depends on how many address lines the CPU has  
+- All possible addresses = Address Space  
+
+Example:
+- 8086 has 20 address lines → can address up to 1 MB of memory  
+
+---
+
+# Memory Mapped I/O
+
+- I/O devices are treated like memory locations  
+- Assigned a 16-bit address within the 8085 address range  
+- Same memory instructions are used (no special I/O instructions)  
+
+---
+
+# I/O Mapped I/O
+
+- I/O devices are treated separately from memory  
+- Assigned an 8-bit port number (00H to FFH)  
+- Uses special IN and OUT instructions only  
+
+---
+
+# Memory Mapped I/O vs I/O Mapped I/O
+
+| Feature | Memory Mapped I/O | I/O Mapped I/O |
+|---|---|---|
+| Treated as | Memory | Separate I/O |
+| Address size | 16-bit | 8-bit |
+| Decoder hardware | More | Less |
+| Addressable locations | 64K | 256 |
+| Memory available | Less | Full |
+| Instructions used | Memory instructions | IN, OUT only |
+| Arithmetic/Logic ops | Possible | Not possible |
+| Data transfer | Register ↔ I/O | Accumulator ↔ I/O |
+
+---
+
+# System Memory vs Standard Memory
+
+| System Memory | Standard Memory |
+|---|---|
+| Made for a specific MPU | Made for general use |
+| Fully compatible, no extra hardware | Needs extra circuits |
+| Limited vendors | Multiple vendors |
+| Limited size/speed options | Wide variety |
+| More expensive | Cheaper |
+| Manuals/kits provided | Hard to choose from many options |
+
+---
+
+# Problems with I/O Devices
+
+- Wide variety of device types: Electrical, Mechanical, Electro-mechanical  
+- Speed varies a lot between devices  
+- Data format varies: Serial or Parallel  
