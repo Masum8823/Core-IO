@@ -115,6 +115,42 @@ Using standards makes devices compatible with each other.
 
 ---
 
+## Interface Device
+A device that meets the interface specifications on one side of an interface.
+
+---
+
+# Example Block Diagram (8085 ↔ Memory)
+
+8085 communicates with Memory through three lines:
+
+- Address Lines — tells which memory location to access  
+- Data Lines — carries the actual data  
+- Control Lines — controls read/write operations  
+
+All three together form the Interface.
+
+---
+
+# Interfacing I/O Devices
+
+I/O devices transfer data between the microprocessor and the outside world.
+
+## Parallel I/O
+- 8 bits transferred at a time using the full data bus  
+
+## Serial I/O
+- 1 bit at a time using SID (Serial Input Data) and SOD pins  
+
+---
+
+# Types of Parallel Interface
+
+Two ways to interface 8085 with I/O devices:
+- Memory Mapped I/O  
+- I/O Mapped I/O  
+
+
 # 🧵 Bus
 
 A bus is a communication system that transfers data between components inside a computer or between computers. Includes hardware (wires) and software (protocols).
