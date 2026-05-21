@@ -84,3 +84,21 @@ Peripherals are very different from the CPU:
 - Converting analogue ↔ digital data  
 
 ---
+
+# 🌐 Interface Standards
+
+| Standard | Full Name |
+|----------|----------|
+| RS232 | Recommended Standard (Serial) |
+| SCSI | Small Computer Systems Interface (Parallel) |
+| IDE | Integrated Drive Electronics |
+| SATA | Serial Advanced Technology Attachment (up to 1.5Gbps) |
+| IEEE | Institute of Electrical & Electronics Engineers (e.g. FireWire) |
+| MIDI | Musical Instrument Digital Interface |
+| PCI | Peripheral Component Interconnect |
+| PCMCIA | Personal Computer Memory Card International Association |
+| USB 1, 2 & 3 | Universal Serial Bus |
+
+Using standards makes devices compatible with each other.
+
+---
