@@ -42,3 +42,31 @@ So the solution is a Multiprocessor System.
 - Tasks are divided among modules  
 - Failures are easy to find and replace  
 ---
+
+# Multiprocessor Issues
+
+When multiple processors share the same memory and I/O through a common bus, extra logic is needed.
+
+Reason:
+- Only one processor should use the bus at a time  
+
+## Two Main Problems
+- Bus Contention  
+- Inter-processor Communication  
+
+---
+
+# 8086 & 8088 in Multiprocessor
+
+The Maximum Mode of 8086/8088 is specially designed for multiprocessor systems.  
+It supports three basic configurations.
+
+---
+
+# Three Basic Configurations
+
+1. Coprocessor Configuration  
+2. Closely Coupled Configuration  
+3. Loosely Coupled Configuration  
+
+---
