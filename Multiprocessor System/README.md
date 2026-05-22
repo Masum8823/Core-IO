@@ -140,3 +140,34 @@ A message includes:
 - System can be expanded by adding/removing modules without affecting others  
 
 ---
+
+# Bus Arbitration Problem
+
+When more than one bus master tries to access the shared bus at the same time — this is called the bus arbitration problem.
+
+## Solution
+Add extra bus access logic that ensures only one master controls the bus at a time.
+
+---
+
+# Bus Arbitration Schemes (3 types)
+
+## 1. Daisy Chaining
+
+- All masters use the same line for bus requests  
+- Controller sends a bus grant signal which travels through masters one by one  
+- First master that needs the bus grabs it and blocks the signal from going further  
+- Module closest to the controller has highest priority  
+
+### Advantages
+- Simple  
+- Low cost  
+- Fewest control lines  
+- Number of lines doesn't depend on number of modules  
+
+### Disadvantages
+- Slow (delay grows with more modules)  
+- Priority is fixed by physical location  
+- One module failure can crash the whole system  
+
+---
