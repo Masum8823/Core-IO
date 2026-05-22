@@ -171,3 +171,15 @@ Add extra bus access logic that ensures only one master controls the bus at a ti
 - One module failure can crash the whole system  
 
 ---
+
+## 2. Polling Method
+
+- Uses address lines to identify each module  
+- Controller generates a sequence of module addresses in response to a bus request  
+- When a module recognizes its own address, it activates the busy line and takes the bus  
+
+### Advantages
+- Priority can be dynamically changed by changing the polling sequence  
+- One module failure does not crash the system  
+
+---
