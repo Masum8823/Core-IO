@@ -70,3 +70,33 @@ It supports three basic configurations.
 3. Loosely Coupled Configuration  
 
 ---
+
+# 1. Coprocessor Configuration
+
+- A coprocessor is connected with the main processor  
+- Both work in parallel  
+
+Example:
+- 8087 is the coprocessor for 8086 — used for numeric/floating point calculations  
+
+- 8086/8088 has no floating point instructions on its own, so 8087 helps  
+- After calculation, coprocessor sends result to the main processor  
+
+## Characteristics
+- Both use the same clock generator  
+- Both share the bus control logic  
+- They communicate using specific instructions  
+
+---
+
+## How CPU & Coprocessor Interact
+
+- CPU fetches instructions; coprocessor also receives and monitors all instructions  
+- When an ESC (Escape) instruction appears, the coprocessor knows it has to execute it  
+- Both decode it, but only the coprocessor executes it  
+- Coprocessor sends a busy signal to CPU's TEST pin while working  
+- CPU keeps running other instructions in parallel  
+- When CPU needs the coprocessor's result, it executes a WAIT instruction and stops until the coprocessor finishes  
+- When done, coprocessor activates the TEST pin to wake up the CPU  
+
+---
