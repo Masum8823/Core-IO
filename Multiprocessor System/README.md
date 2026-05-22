@@ -100,3 +100,25 @@ Example:
 - When done, coprocessor activates the TEST pin to wake up the CPU  
 
 ---
+
+# 2. Closely Coupled Configuration
+
+- 8086/8088 supports an independent processor (not a coprocessor)  
+- Unlike a coprocessor, this processor runs its own instruction stream  
+- They share the same clock and bus control logic  
+- Independent processor accesses the bus through RQ/GT lines  
+
+---
+
+## Interaction
+
+- Communication happens through shared memory space  
+- Host sets up a message in memory  
+- Independent processor fetches the message, performs the task, then notifies the host using a status bit or interrupt  
+
+A message includes:
+- Which operation to do  
+- Input parameters  
+- Where to store the result  
+
+---
