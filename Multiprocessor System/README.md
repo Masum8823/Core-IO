@@ -122,3 +122,21 @@ A message includes:
 - Where to store the result  
 
 ---
+
+# 3. Loosely Coupled Configuration
+
+- Each CPU has its own bus control logic  
+- Bus arbitration is resolved by adding external logic common to all masters  
+- Multiple CPUs can form a very large system  
+- Each CPU may also have its own coprocessor or independent processor attached  
+
+---
+
+## Advantages
+
+- High throughput with multiple CPUs  
+- Failure of one module does not crash the whole system  
+- Each CPU can have a local bus for its own memory/I/O (more parallel processing)  
+- System can be expanded by adding/removing modules without affecting others  
+
+---
