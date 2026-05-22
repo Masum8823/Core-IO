@@ -183,3 +183,14 @@ Add extra bus access logic that ensures only one master controls the bus at a ti
 - One module failure does not crash the system  
 
 ---
+
+
+## 3. Independent Request Scheme
+
+- Each module has its own separate bus request and bus grant lines  
+- Each pair has a priority assigned  
+- Controller has a priority decoder that picks the highest priority request and sends the grant  
+- Fastest of all three methods  
+- Requires more control lines than the others  
+
+---
