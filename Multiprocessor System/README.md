@@ -22,3 +22,23 @@ Other solutions (complex components, multicore) also have problems:
 So the solution is a Multiprocessor System.
 
 ---
+# Advantages of Multiprocessor System
+
+## Reduced Cost
+- Processors share the same resources  
+- No separate power supply or motherboard needed for each chip  
+
+## Increased Reliability
+- If one processor fails, others keep working  
+- System slows but doesn't stop  
+
+## Increased Throughput
+- More processes = work done in less time  
+
+## Easy to Expand
+- Can add more processors as needed  
+
+## Easy to Fix
+- Tasks are divided among modules  
+- Failures are easy to find and replace  
+---
