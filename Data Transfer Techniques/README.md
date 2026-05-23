@@ -48,3 +48,29 @@
 - DMA Controller withdraws the request → CPU takes back control  
 
 ---
+# Modes of DMA
+
+| Mode | What it does |
+|---|---|
+| Blocked DMA | Transfers all data continuously once started |
+| Cycle Stealing | Takes bus for 1 byte → returns control to CPU → repeats |
+
+---
+# MPU Features (in DMA)
+
+- Has an input control line  
+- Has an output control line  
+- Can tristate (release) the address, data, and control lines  
+
+---
+
+# DMA Controller Features
+
+- Connects MPU buses with I/O device  
+- Generates DMA request signal  
+- Controls address & control bus during transfer  
+- Holds the data bytes to be transferred  
+
+---
+
+
