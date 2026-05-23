@@ -73,4 +73,22 @@
 
 ---
 
+# I/O Port
+
+- Connects I/O devices to the processor  
+- Each device has different speed → I/O port maintains a buffer  
+
+---
+
+## Components
+
+- Device selection logic  
+- Data buffers  
+- Bus drivers  
+- Status flag register  
+- Control line  
+
+---
+
+
 
