@@ -89,6 +89,25 @@
 - Control line  
 
 ---
+## Types
 
+### Programmable
+- 8255A  
+
+### Non-programmable
+- 8212  
+
+---
+
+# Programmable I/O Port Components
+
+- Direct system bus interaction  
+- Device selection logic  
+- Buffer register  
+- Control command register (tells the mode)  
+- Status register  
+- Read/Write and control logic  
+
+---
 
 
