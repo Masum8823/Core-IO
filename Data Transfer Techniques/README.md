@@ -25,3 +25,14 @@
 - I/O device interrupts the CPU when ready  
 
 ---
+
+# Interrupt Driven — How it works
+
+- CPU sends "Get Ready" signal to I/O device  
+- CPU keeps doing its own work  
+- When I/O is ready → it sends an interrupt signal  
+- CPU saves its current state (PC saved in stack)  
+- CPU runs the ISS (Interrupt Service Subroutine)  
+- After finishing → CPU restores its state and returns  
+
+---
