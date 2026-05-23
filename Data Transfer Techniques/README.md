@@ -36,3 +36,15 @@
 - After finishing → CPU restores its state and returns  
 
 ---
+
+# DMA Mode — How it works
+
+- DMA Controller is initialized  
+- CPU sends "Get Ready" to I/O device  
+- I/O device gets ready → sends DMA Request to DMA Controller  
+- DMA Controller sends DMA Request to MPU  
+- MPU gives DMA Grant → tristates the buses (lets go of control)  
+- Data transfers directly until the whole block is done  
+- DMA Controller withdraws the request → CPU takes back control  
+
+---
