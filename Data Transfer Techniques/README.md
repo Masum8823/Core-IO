@@ -110,4 +110,42 @@
 
 ---
 
+# Serial Mode of Data Transfer
+
+- Transfers data bit by bit  
+
+---
+
+## Why used?
+
+- Less wires/cabling  
+- Less complex  
+- Cheaper  
+- Used in telephone networks, microwave links  
+- Many I/O devices are naturally serial  
+
+---
+
+# Types of Serial Communication
+
+## Simplex
+- One direction only  
+
+## Half-duplex
+- Both directions, but not at the same time  
+
+## Full-duplex
+- Both directions at the same time  
+
+---
+
+# Important Terms
+
+## Baud Rate
+- Number of bits per second (75 to 19200)  
+
+## Split Bit Mode
+- Transmitter and receiver use different bit rates  
+
+
 
