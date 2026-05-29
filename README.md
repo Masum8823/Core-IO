@@ -11,11 +11,6 @@ This repository contains organized and easy-to-understand notes on:
 - Input and Output Devices
 - Computer Peripheral Concepts
 
-The notes are written in simple English for:
-- Quick revision
-- Exam preparation
-- Concept understanding
-
 ---
 
 ## Topics Covered
